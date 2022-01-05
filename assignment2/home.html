@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+        }
+
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .centered {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: rgb(255, 253, 253);
+        }
+
+        .topnav a {
+            float: left;
+            color: #070000;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topnav a:hover {
+            color: rgb(30, 196, 146);
+        }
+
+        .topnav a.active {
+            border-top: 4px solid rgb(30, 196, 146);
+        }
+
+        .topnav a.notactive {
+            border-top: 4px solid rgb(248, 250, 249);
+        }
+
+        .topnav-right {
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="topnav">
+        <a href=""> <img src="symbol2.png" alt="" style="height:30px"> <img src="symbol2.png" alt=""
+                style="height:30px"></a>
+        <div class="topnav-right">
+            <a class="active" href="home.html">HOME</a>
+            <a class="notactive" href="about.html">ABOUT</a>
+            <a class="notactive" href="services.html">SERVICES</a>
+            <a class="notactive" href="mywork.html">MY WORK</a>
+            <a class="notactive" href="contact.html">CONTACT</a>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <img src="photo1.jpg" alt="" style="width:100% ">
+        <div class="centered">
+            <h1>Hello, I am Pranav Khairnar</h1>
+            <h2>I use HTML and CSS to convert webpage designs into beautiful and efficient websites.</h2>
+        </div>
+
+    </div>
+</body>
+
+</html>
