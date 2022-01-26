@@ -15,6 +15,10 @@ function Todo(props) {
                 <th><button onClick={() => {
             props.onChecked(props.id);
         }}>Delete</button></th>
+        <th><button onClick={() => {
+            props.editChecked(props.id);
+        }}>Edit</button></th>
+        
             </tr>
         </table>
         </li>

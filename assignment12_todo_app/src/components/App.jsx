@@ -28,18 +28,14 @@ function App() {
     });
   }
   function editItem(id) {
-    //console.log(id);
+    for(let i=0; i<items.length; i++) {
+      if(i === id) {
+        setInputText(items[i]);
+        break;
+      }
+    }
     
-    /*
-    setItems((prevItems) => {
-      return prevItems.filter(
-        (item, index) => {
-          return index !== id;
-        }
-      )
-    });
-    */
-    
+    deleteItem(id);
   }
 
   return (
