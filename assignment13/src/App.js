@@ -19,7 +19,7 @@ function App() {
   const [items, setItems] = useState([]);
   const [itemID, setItemID] = useState([]);
 
-  fetch("http://demo0410178.mockable.io/shop")
+  fetch("https://61f259992219930017f504bf.mockapi.io/emall/items")
       .then((res) => res.json())
       .then((json) => {
         setItems(json);
