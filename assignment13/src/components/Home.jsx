@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 function Home(props) {
   let items = props.items;
@@ -8,7 +8,7 @@ function Home(props) {
   <br></br>
   <br></br>
   <br></br>
-  <div className="card-group">
+  <div className="row row-cols-1 row-cols-md-6">
       {items.map((item) => (
     
     
@@ -24,7 +24,9 @@ function Home(props) {
     </div>
       ))}
   </div>
-  
+  <br></br>
+  <br></br>
+  <br></br>
     </>
   );
 }
