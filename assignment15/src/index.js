@@ -22,3 +22,4 @@ ReactDOM.render(
 // npm install @material-ui/icons
 
 // npm install swiper
+// npm install swiper@6.8.4

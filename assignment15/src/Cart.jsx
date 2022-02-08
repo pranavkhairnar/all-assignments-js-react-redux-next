@@ -7,15 +7,15 @@ function Cart() {
   const allItems = useSelector((state) => state.allItems);
   addedItems.map((id) => (total = total + parseInt(allItems[id - 1].price)));
   return (
-    <>
+    <div className="center">
       <h1>Cart🛒 </h1>
 
       <br></br>
       <div className="center">
         <table style={{ border: "1px solid black" }}>
-          <col width="200px" />
+          <col width="290px" />
           <col width="175px" />
-          <col width="150px" />
+          <col width="250px" />
           <tr style={({ border: "1px solid black" }, { textAlign: "center" })}>
             <th style={{ border: "1px solid black" }}> Product image </th>
             <th style={{ border: "1px solid black" }}> Product name</th>
@@ -65,7 +65,7 @@ function Cart() {
       <br></br>
       <br></br>
       <br></br>
-    </>
+    </div>
   );
 }
 

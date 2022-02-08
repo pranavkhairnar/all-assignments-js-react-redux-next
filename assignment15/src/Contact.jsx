@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <>
+    <div className="center">
       <h1>E-Mall helpline numbers:</h1>
       <table style={{ border: "1px solid black" }}>
         <col width="200px" />
@@ -74,6 +74,6 @@ export default function Contact() {
           <th style={{ border: "1px solid black" }}>United States</th>
         </tr>
       </table>
-    </>
+    </div>
   );
 }

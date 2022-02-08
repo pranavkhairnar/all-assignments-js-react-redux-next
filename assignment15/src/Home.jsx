@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { bindActionCreators } from "redux";
 import { actionCreators } from "./state/index";
 import { useSelector } from "react-redux";
-import productCarousel from "./productCarousel";
+
 
 function Home() {
   const dispatch = useDispatch();
@@ -16,7 +16,7 @@ function Home() {
       <br></br>
       <br></br>
       <br></br>
-      <productCarousel></productCarousel>
+      
 
       <div
         className="mx-auto row row-cols-1 row-cols-md-6"
