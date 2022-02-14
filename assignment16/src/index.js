@@ -5,7 +5,7 @@ import App from "./App";
 import { Provider } from "react-redux";
 import store from "./state/store";
 
-ReactDOM.render(
+ReactDOM.hydrate(
   <React.StrictMode>
     <Provider store={store}>
       <App />
