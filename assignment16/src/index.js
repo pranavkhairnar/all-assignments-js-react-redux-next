@@ -23,3 +23,10 @@ ReactDOM.hydrate(
 
 // npm install swiper
 // npm install swiper@6.8.4
+
+// npm install -g win-node-env
+
+// npm i redux-devtools-extension
+
+// npm install nodemon@2.0.15 --save-dev
+// npm install npm-run-all@4.1.5 --save-dev
