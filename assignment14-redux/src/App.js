@@ -15,7 +15,7 @@ function App() {
   const dispatch = useDispatch();
   const actions = bindActionCreators(actionCreators, dispatch);
 
-  actions.fetchData("https://61f259992219930017f504bf.mockapi.io/emall/items");
+  
 
   return (
     <>

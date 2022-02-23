@@ -7,7 +7,7 @@ import { useSelector } from "react-redux";
 function Home() {
   const dispatch = useDispatch();
   const actions = bindActionCreators(actionCreators, dispatch);
-  const allItems = useSelector((state) => state.allItems);
+  const allItems = useSelector((state) => state.allItems.items);
 
   return (
     <>

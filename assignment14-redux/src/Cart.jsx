@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 function Cart() {
   let total = 0;
   const addedItems = useSelector((state) => state.addedItems);
-  const allItems = useSelector((state) => state.allItems);
+  const allItems = useSelector((state) => state.allItems.items);
   addedItems.map((id) => (total = total + parseInt(allItems[id - 1].price)));
   return (
     <>

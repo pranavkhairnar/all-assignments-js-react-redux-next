@@ -6,11 +6,11 @@ export const addToCart = (id) => {
     });
   };
 };
-export const fetchData = (url) => {
+export const fetchData = (json_data) => {
   return (dispatch) => {
     dispatch({
       type: "fetch",
-      payload: url,
+      payload: json_data,
     });
   };
 };
