@@ -5,6 +5,8 @@ function Home() {
   <h1>Home Page</h1>
   
    <Link href= '/users'>
+  <a>Users</a></Link> 
+  <Link href='/posts/index'  >
   <a>Users</a>
   </Link> 
   </>)
